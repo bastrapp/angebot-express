@@ -3,9 +3,10 @@
   "version": "1.0",
   "description": "Interhyp Home for Chrome",
   "manifest_version": 2,
-
-  "content_scripts": [
-    {
+  "permissions": [
+      "https://www.interhyp.de/"
+  ],
+  "content_scripts": [{
       "css": ["immoscout.css"],
       "js": ["scrap_immo_data.js", "immoscout_show_zinscheck.js"],
       "matches": ["https://www.immobilienscout24.de/expose/*"]
