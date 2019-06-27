@@ -6,6 +6,7 @@
   "permissions": [
       "https://www.interhyp.de/"
   ],
+  
   "content_scripts": [{
       "css": ["immoscout.css"],
       "js": ["scrap_immo_data.js", "immoscout_show_zinscheck.js"],
