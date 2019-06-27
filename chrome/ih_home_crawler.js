@@ -54,3 +54,22 @@ async function pollForValues() {
 }
 
 pollForValues();
+
+var fun = function()
+{ 
+  if (document.getElementById("ext-element-342")) 
+  {
+    console.log("clickin on marktueberblick");
+    setTimeout( function() 
+    {
+      document.getElementById("ext-element-342").click();
+    },200 );
+  } else 
+  { 
+    console.log("still waiting for marktueberblick button");
+    setTimeout(fun, 100);
+  } 
+}
+
+fun();
+
