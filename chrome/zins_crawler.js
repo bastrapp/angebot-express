@@ -15,4 +15,4 @@ var crawler = function(inputFields){
         body: "{\"caseDto\":{\"estate\":{\"zip\":\"81245\",\"city\":\"München\",\"federalState\":\"DE-BY\"},\"mainApplicant\":{\"zip\":\"\",\"city\":\"\",\"federalState\":\"\",\"netSalary\":0},\"capital\":{\"equityCash\":150000},\"venture\":{\"reason\":\"KaufBest\",\"priceBuilding\":780000,\"percentageBroker\":3.57,\"shownFunding\":{\"equityCash\":150000,\"loans\":[{\"amount\":700746,\"maturity\":15,\"fullRepayment\":false,\"amortisation\":4}]},\"brokerCosts\":27845.999999999996,\"notaryCosts\":15600,\"transferTax\":27300.000000000004},\"handling\":{},\"calledBy\":\"zinscheck18\"},\"numberOfResults\":5}"
     }
     ).then(r=>r.text());
-}
+  }  

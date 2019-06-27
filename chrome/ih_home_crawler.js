@@ -37,10 +37,7 @@ function lookForDownPayment(aTags) {
     if (aTags[i].textContent == searchTextDownPayment) {
       var downPaymentParent = aTags[i].parentNode;
       var downPaymentInput = downPaymentParent.getElementsByTagName("span")[0].textContent;
-      console.log(downPaymentInput);
       downPayment = parseInt(downPaymentInput.substr(2, downPaymentInput.length - 2).replace('.',''))
-      console.log(downPayment);
-
     }
   }
   chrome.storage.local.set({"downPayment": downPayment});

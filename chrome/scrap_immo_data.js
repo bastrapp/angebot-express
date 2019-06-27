@@ -11,7 +11,6 @@ console.log ("Preis: " + get_price());
 console.log ("Zip: " + get_zip());
 
 
-
 //crawler({
 //  "price": get_price(),
 //  "zip": get_zip()
