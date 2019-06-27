@@ -1,2 +1,2 @@
 
-alert ("hallo")
+console.log ("Preis: " + get_price());
