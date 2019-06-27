@@ -35,7 +35,7 @@ var offerHtml = "<table>" + offer_html(offers[0]) +  offer_html(offers[1]) +  of
 console.log(offer);
 
 var box = document.getElementById('is24-banner_right_1')
-box.innerHTML = "<div id='interhyp-box' onClick=\"window.open('https://www.interhyp.de/home/')\"> <img src='https://www.interhyp.de/interhyp-assets/images/logo-svg.svg?1537357864'/><br>" + offerHtml+ " <br> basiert auf ihren Daten in Interhyp Home</div>"
+box.innerHTML = "<div id='interhyp-box' onClick=\"window.open('https://www.interhyp.de/home/#/marketoverview')\"> <img src='https://www.interhyp.de/interhyp-assets/images/logo-svg.svg?1537357864'/><br>" + offerHtml+ " <br> basiert auf ihren Daten in Interhyp Home</div>"
 }
 
 chrome.storage.local.get(['yearlyHouseholdIncome'], showIncome);
