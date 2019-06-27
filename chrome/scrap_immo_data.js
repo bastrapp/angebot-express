@@ -1,5 +1,5 @@
 function get_price() {
-  return parseInt(document.getElementsByClassName('is24qa-kaufpreis')[0].innerText.replace('.',''));
+  return parseInt(document.getElementsByClassName('is24qa-kaufpreis')[0].innerText.replace('.','').replace('.',''));
 };
 
 function get_zip() {
