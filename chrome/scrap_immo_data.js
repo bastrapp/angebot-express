@@ -15,4 +15,4 @@ console.log ("Zip: " + get_zip());
 crawler({
   "price": get_price(),
   "zip": get_zip()
-}).then(r => console.log(r));
+}).then(r => show_zinscheck(r));
