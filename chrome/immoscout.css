@@ -1,4 +1,11 @@
-body {
-  background-color: #151515;
+.is24-function-box {
+  display: none !important
+}
 
+#interhyp-box {
+   height: 250px;
+   width: 300px;
+   border: 1px solid black;
+   line-height:normal !important;
+   padding: 5px;
 }
