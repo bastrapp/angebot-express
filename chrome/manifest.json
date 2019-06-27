@@ -4,15 +4,11 @@
   "description": "Interhyp Home for Chrome",
   "manifest_version": 2,
   "permissions": [
-      "https://www.interhyp.de/"
+      "https://www.interhyp.de/customer-portal/api/interestcalculator/v1/"
   ],
-  "background": {
-    "scripts": ["zins_crawler.js"],
-    "persistent": false
-  },
   "content_scripts": [{
       "css": ["immoscout.css"],
-      "js": ["scrap_immo_data.js", "immoscout_show_zinscheck.js"],
+      "js": ["zins_crawler.js","scrap_immo_data.js", "immoscout_show_zinscheck.js"],
       "matches": ["https://www.immobilienscout24.de/expose/*"]
     }]
 }
