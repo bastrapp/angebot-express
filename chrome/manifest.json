@@ -2,5 +2,11 @@
   "name": "Interhyp",
   "version": "1.0",
   "description": "Interhyp Home for Chrome",
-  "manifest_version": 2
+  "manifest_version": 2,
+
+  "content_scripts": [{
+      "css": ["immoscout.css"],
+      "js": ["immoscout_show_zinscheck.js"],
+      "matches": ["https://www.immobilienscout24.de/expose/*"]
+    }]
 }
